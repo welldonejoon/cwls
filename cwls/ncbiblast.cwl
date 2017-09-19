@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/ncbiblast.pl
+      location: ../tools/ncbiblast_lwp.pl
 
   email:
     type: string
@@ -22,6 +22,14 @@ inputs:
     default: 'joonlee@ebi.ac.uk'
     
   
+  sequence:
+    type: File
+    inputBinding:
+      position: 3
+      prefix: --sequence
+    default:
+      class: File
+      location: ../sequence/single.seq
 
 
 
@@ -55,13 +63,6 @@ inputs:
       prefix: --title
 #    default: '$defaultValue'
 
-  task:
-    type: string  
-    inputBinding:
-      position: 29
-      prefix: --task
-#    default: '$defaultValue'
-
   matrix:
     type: string  
     inputBinding:
@@ -84,7 +85,7 @@ inputs:
 #    default: '$defaultValue'
 
   exp:
-    type: string  
+    type: int  
     inputBinding:
       position: 33
       prefix: --exp
@@ -95,13 +96,6 @@ inputs:
     inputBinding:
       position: 34
       prefix: --dropoff
-#    default: '$defaultValue'
-
-  match_scores:
-    type: string  
-    inputBinding:
-      position: 35
-      prefix: --match_scores
 #    default: '$defaultValue'
 
   gapopen:
@@ -151,13 +145,6 @@ inputs:
     inputBinding:
       position: 42
       prefix: --align
-#    default: '$defaultValue'
-
-  transltable:
-    type: int     
-    inputBinding:
-      position: 43
-      prefix: --transltable
 #    default: '$defaultValue'
 
 
