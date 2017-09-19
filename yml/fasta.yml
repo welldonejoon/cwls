@@ -1,0 +1,13 @@
+dbrange: START-END
+scoreformat: default
+alignments: 50
+scores: 50
+annotsym: %^*#&@
+transltable: 1
+filter: none
+hist: false
+annotfeats: false
+stats: 1
+seqrange: START-END
+hsps: false
+explowlim: 0

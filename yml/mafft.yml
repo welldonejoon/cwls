@@ -1,0 +1,11 @@
+ffts: none
+nbtree: 2
+maxiterate: 2
+gapext: 0.123
+gapopen: 1.53
+stype: automatic
+format: fasta
+treeout: true
+program: mafft
+matrix: bl62
+order: aligned
