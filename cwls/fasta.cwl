@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: ../tools/fasta.pl
+      location: ../tools/fasta_lwp.pl
 
   email:
     type: string
@@ -28,7 +28,7 @@ inputs:
       prefix: --sequence
     default:
       class: File
-      location: single.seq
+      location: ../sequence/single.seq
 
 
 
@@ -160,13 +160,6 @@ inputs:
       prefix: --annotfeats
 #    default: '$defaultValue'
 
-  annotsym:
-    type: string  
-    inputBinding:
-      position: 43
-      prefix: --annotsym
-#    default: '$defaultValue'
-
   dbrange:
     type: string  
     inputBinding:
@@ -186,13 +179,6 @@ inputs:
     inputBinding:
       position: 46
       prefix: --filter
-#    default: '$defaultValue'
-
-  transltable:
-    type: int     
-    inputBinding:
-      position: 47
-      prefix: --transltable
 #    default: '$defaultValue'
 
   ktup:
