@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/simple_phylogeny.pl
+      location: ../tools/simple_phylogeny_lwp.pl
 
   email:
     type: string
@@ -28,7 +28,7 @@ inputs:
       prefix: --sequence
     default:
       class: File
-      location: aligned.seq
+      location: ../sequence/aligned.seq
 
 
 

@@ -4,3 +4,4 @@ tossgaps: false
 tree: phylip
 clustering: Neighbour-joining
 program: clustalw2
+title: Simple Phylogeny
