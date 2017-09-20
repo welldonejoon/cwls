@@ -5,3 +5,6 @@ InterPro
 Hmmer hmmscan
 PfamScan
 phobius
+pratt
+Radar
+fasta

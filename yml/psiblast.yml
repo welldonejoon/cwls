@@ -12,3 +12,5 @@ seqrange: START-END
 umode: blastpgp
 psithr: 1.0e-3
 alignView: 0
+database: uniprotkb_swissprot
+title: Psi-blast

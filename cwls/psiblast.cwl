@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: ../tools/psiblast.pl
+      location: ../tools/psiblast_lwp.pl
 
   email:
     type: string
@@ -21,6 +21,14 @@ inputs:
       prefix: --email
     default: 'joonlee@ebi.ac.uk'
     
+  sequence:
+    type: File
+    inputBinding:
+      position: 3
+      prefix: --sequence
+    default:
+      class: File
+      location: ../sequence/single.seq
   
 
 
@@ -123,41 +131,6 @@ inputs:
     inputBinding:
       position: 24
       prefix: --seqrange
-#    default: '$defaultValue'
-
-  previousjobid:
-    type: string       
-    inputBinding:
-      position: 25
-      prefix: --previousjobid
-#    default: '$defaultValue'
-
-  selectedHits:
-    type: base64Binary 
-    inputBinding:
-      position: 26
-      prefix: --selectedHits
-#    default: '$defaultValue'
-
-  cpfile:
-    type: base64Binary 
-    inputBinding:
-      position: 27
-      prefix: --cpfile
-#    default: '$defaultValue'
-
-  umode:
-    type: string       
-    inputBinding:
-      position: 28
-      prefix: --umode
-#    default: '$defaultValue'
-
-  patfile:
-    type: base64Binary 
-    inputBinding:
-      position: 29
-      prefix: --patfile
 #    default: '$defaultValue'
 
 
