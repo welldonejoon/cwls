@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: ../tools/pfamscan.pl
+      location: ../tools/pfamscan_lwp.pl
 
   email:
     type: string
@@ -20,6 +20,15 @@ inputs:
       position: 2
       prefix: --email
     default: 'joonlee@ebi.ac.uk'
+    
+  sequence:
+    type: File
+    inputBinding:
+      position: 3
+      prefix: --sequence
+    default:
+      class: File
+      location: ../sequence/single.seq
     
   
 
@@ -59,7 +68,7 @@ inputs:
     type: string  
     inputBinding:
       position: 8
-      prefix: --format
+      prefix: 
 #    default: '$defaultValue'
 
 
