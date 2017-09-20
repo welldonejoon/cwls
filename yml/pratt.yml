@@ -8,7 +8,7 @@ program: pratt
 patternRefinement: false
 version: 2.3
 minPerc: 100
-patternPosition: off
+patternPosition: 'off'
 genAmbigSymbols: false
 searchGreediness: 3
 maxPatternLength: 50
@@ -21,3 +21,4 @@ printPatterns: true
 printingRatio: 10
 maxNumPatterns: 50
 patternSymbolFile: false
+title: Pratt

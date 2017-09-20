@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: ../tools/pratt.pl
+      location: ../tools/pratt_lwp.pl
 
   email:
     type: string
@@ -20,6 +20,15 @@ inputs:
       position: 2
       prefix: --email
     default: 'joonlee@ebi.ac.uk'
+    
+  sequence:
+    type: File
+    inputBinding:
+      position: 3
+      prefix: --sequence
+    default:
+      class: File
+      location: ../sequence/aligned.seq
     
   
 
@@ -181,19 +190,7 @@ inputs:
       prefix: --printVertically
 #    default: '$defaultValue'
 
-  stype:
-    type: string       
-    inputBinding:
-      position: 26
-      prefix: --stype
-#    default: '$defaultValue'
 
-  ppfile:
-    type: base64Binary 
-    inputBinding:
-      position: 27
-      prefix: --ppfile
-#    default: '$defaultValue'
 
 
 outputs: 
