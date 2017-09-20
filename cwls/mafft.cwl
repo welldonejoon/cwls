@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/mafft.pl
+      location: ../tools/mafft.pl
 
   email:
     type: string

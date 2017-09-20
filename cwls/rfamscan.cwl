@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/rfamscan.pl
+      location: ../tools/rfamscan.pl
 
   email:
     type: string

@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_seqret.pl
+      location: ../tools/emboss_seqret.pl
 
   email:
     type: string

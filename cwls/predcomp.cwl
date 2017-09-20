@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/predcomp.pl
+      location: ../tools/predcomp.pl
 
   email:
     type: string

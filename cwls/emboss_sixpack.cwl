@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_sixpack.pl
+      location: ../tools/emboss_sixpack.pl
 
   email:
     type: string

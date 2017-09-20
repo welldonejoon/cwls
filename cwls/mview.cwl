@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/mview.pl
+      location: ../tools/mview.pl
 
   email:
     type: string

@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/pfamscan.pl
+      location: ../tools/pfamscan.pl
 
   email:
     type: string

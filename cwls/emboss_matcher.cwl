@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_matcher.pl
+      location: ../tools/emboss_matcher.pl
 
   email:
     type: string

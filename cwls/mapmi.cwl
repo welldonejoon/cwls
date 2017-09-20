@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/mapmi.pl
+      location: ../tools/mapmi.pl
 
   email:
     type: string

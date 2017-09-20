@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_cpgplot.pl
+      location: ../tools/emboss_cpgplot.pl
 
   email:
     type: string

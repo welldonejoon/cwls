@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/wise2dba.pl
+      location: ../tools/wise2dba.pl
 
   email:
     type: string

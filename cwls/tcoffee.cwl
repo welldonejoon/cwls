@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/tcoffee.pl
+      location: ../tools/tcoffee.pl
 
   email:
     type: string

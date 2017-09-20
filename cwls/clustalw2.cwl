@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/clustalw2.pl
+      location: ../tools/clustalw2.pl
 
   email:
     type: string

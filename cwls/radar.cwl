@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/radar.pl
+      location: ../tools/radar.pl
 
   email:
     type: string

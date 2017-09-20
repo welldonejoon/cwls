@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/hmmer_hmmscan.pl
+      location: ../tools/hmmer_hmmscan.pl
 
   email:
     type: string

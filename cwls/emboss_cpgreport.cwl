@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_cpgreport.pl
+      location: ../tools/emboss_cpgreport.pl
 
   email:
     type: string

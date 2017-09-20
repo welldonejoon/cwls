@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/psisearch2.pl
+      location: ../tools/psisearch2.pl
 
   email:
     type: string

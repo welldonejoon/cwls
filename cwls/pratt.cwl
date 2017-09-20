@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/pratt.pl
+      location: ../tools/pratt.pl
 
   email:
     type: string

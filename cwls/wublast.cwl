@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/wublast.pl
+      location: ../tools/wublast.pl
 
   email:
     type: string

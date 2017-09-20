@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/mafft_addseq.pl
+      location: ../tools/mafft_addseq.pl
 
   email:
     type: string

@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_pepinfo.pl
+      location: ../tools/emboss_pepinfo.pl
 
   email:
     type: string

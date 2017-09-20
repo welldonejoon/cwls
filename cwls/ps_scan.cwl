@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/ps_scan.pl
+      location: ../tools/ps_scan.pl
 
   email:
     type: string

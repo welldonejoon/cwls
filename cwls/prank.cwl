@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/prank.pl
+      location: ../tools/prank.pl
 
   email:
     type: string

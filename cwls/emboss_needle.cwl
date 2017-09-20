@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_needle.pl
+      location: ../tools/emboss_needle.pl
 
   email:
     type: string

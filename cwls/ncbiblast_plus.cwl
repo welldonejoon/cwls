@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/ncbiblast_plus.pl
+      location: ../tools/ncbiblast_plus.pl
 
   email:
     type: string

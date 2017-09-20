@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/readseq.pl
+      location: ../tools/readseq.pl
 
   email:
     type: string

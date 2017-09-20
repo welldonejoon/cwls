@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/lalign.pl
+      location: ../tools/lalign.pl
 
   email:
     type: string

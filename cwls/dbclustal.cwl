@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/dbclustal.pl
+      location: ../tools/dbclustal.pl
 
   email:
     type: string

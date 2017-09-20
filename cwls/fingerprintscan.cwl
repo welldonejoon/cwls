@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/fingerprintscan.pl
+      location: ../tools/fingerprintscan.pl
 
   email:
     type: string

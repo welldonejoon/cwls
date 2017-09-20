@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/seqcksum.pl
+      location: ../tools/seqcksum.pl
 
   email:
     type: string

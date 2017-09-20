@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/hmmer3_phmmer.pl
+      location: ../tools/hmmer3_phmmer.pl
 
   email:
     type: string

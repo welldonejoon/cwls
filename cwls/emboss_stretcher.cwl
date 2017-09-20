@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_stretcher.pl
+      location: ../tools/emboss_stretcher.pl
 
   email:
     type: string

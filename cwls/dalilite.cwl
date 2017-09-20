@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/dalilite.pl
+      location: ../tools/dalilite.pl
 
   email:
     type: string

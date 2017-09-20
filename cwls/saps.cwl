@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/saps.pl
+      location: ../tools/saps.pl
 
   email:
     type: string

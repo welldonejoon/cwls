@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/kalign.pl
+      location: ../tools/kalign.pl
 
   email:
     type: string

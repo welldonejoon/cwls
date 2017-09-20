@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_water.pl
+      location: ../tools/emboss_water.pl
 
   email:
     type: string

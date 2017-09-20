@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/fastm.pl
+      location: ../tools/fastm.pl
 
   email:
     type: string

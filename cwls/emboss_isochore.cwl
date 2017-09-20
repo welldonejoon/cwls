@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_isochore.pl
+      location: ../tools/emboss_isochore.pl
 
   email:
     type: string

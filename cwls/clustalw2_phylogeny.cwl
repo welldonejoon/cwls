@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/clustalw2_phylogeny.pl
+      location: ../tools/clustalw2_phylogeny.pl
 
   email:
     type: string

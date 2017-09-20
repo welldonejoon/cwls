@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_transeq.pl
+      location: ../tools/emboss_transeq.pl
 
   email:
     type: string

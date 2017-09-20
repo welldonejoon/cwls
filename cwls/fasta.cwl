@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/fasta.pl
+      location: ../tools/fasta.pl
 
   email:
     type: string

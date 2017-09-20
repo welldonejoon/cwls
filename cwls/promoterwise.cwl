@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/promoterwise.pl
+      location: ../tools/promoterwise.pl
 
   email:
     type: string

@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/blast_formatter.pl
+      location: ../tools/blast_formatter.pl
 
   email:
     type: string

@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/psiblast.pl
+      location: ../tools/psiblast.pl
 
   email:
     type: string

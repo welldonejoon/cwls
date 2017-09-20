@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/censor.pl
+      location: ../tools/censor.pl
 
   email:
     type: string

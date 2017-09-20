@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/emboss_backtranambig.pl
+      location: ../tools/emboss_backtranambig.pl
 
   email:
     type: string

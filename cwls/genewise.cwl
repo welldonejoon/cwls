@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/genewise.pl
+      location: ../tools/genewise.pl
 
   email:
     type: string

@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/muscle.pl
+      location: ../tools/muscle.pl
 
   email:
     type: string

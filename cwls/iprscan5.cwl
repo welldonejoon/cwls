@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/iprscan5.pl
+      location: ../tools/iprscan5.pl
 
   email:
     type: string

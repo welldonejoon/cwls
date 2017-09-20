@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/infernal_cmscan.pl
+      location: ../tools/infernal_cmscan.pl
 
   email:
     type: string

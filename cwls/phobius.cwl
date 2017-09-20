@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/phobius.pl
+      location: ../tools/phobius.pl
 
   email:
     type: string

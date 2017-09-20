@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/raxml_epa.pl
+      location: ../tools/raxml_epa.pl
 
   email:
     type: string

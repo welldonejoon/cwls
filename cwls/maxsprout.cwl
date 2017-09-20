@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: tools/maxsprout.pl
+      location: ../tools/maxsprout.pl
 
   email:
     type: string
