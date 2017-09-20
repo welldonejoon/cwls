@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: ../tools/phobius.pl
+      location: ../tools/phobius_lwp.pl
 
   email:
     type: string
@@ -20,6 +20,15 @@ inputs:
       position: 2
       prefix: --email
     default: 'joonlee@ebi.ac.uk'
+    
+  sequence:
+    type: File
+    inputBinding:
+      position: 3
+      prefix: --sequence
+    default:
+      class: File
+      location: ../sequence/single.seq
     
   
 
@@ -38,15 +47,9 @@ inputs:
     type: string 
     inputBinding:
       position: 5
-      prefix: --format
+      prefix: 
 #    default: '$defaultValue'
 
-  stype:
-    type: string 
-    inputBinding:
-      position: 6
-      prefix: --stype
-#    default: '$defaultValue'
 
 
 outputs: 
