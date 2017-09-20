@@ -28,7 +28,7 @@ inputs:
       prefix: --sequence
     default:
       class: File
-      location: single.seq
+      location: ../sequence/single.seq
 
 
 
