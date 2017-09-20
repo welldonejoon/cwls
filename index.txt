@@ -2,3 +2,4 @@ ncbiblast
 clustao
 Simple Phylogeny
 InterPro
+Hmmer hmmscan

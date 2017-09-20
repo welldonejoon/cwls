@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: ../tools/hmmer_hmmscan.pl
+      location: ../tools/hmmer_hmmscan_lwp.pl
 
   email:
     type: string
@@ -21,6 +21,14 @@ inputs:
       prefix: --email
     default: 'joonlee@ebi.ac.uk'
     
+  sequence:
+    type: File
+    inputBinding:
+      position: 3
+      prefix: --sequence
+    default:
+      class: File
+      location: ../sequence/single.seq
   
 
 
