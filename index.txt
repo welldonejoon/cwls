@@ -10,3 +10,4 @@ Radar
 fasta
 psiblast
 kalign
+mafft
