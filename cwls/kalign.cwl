@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: ../tools/kalign.pl
+      location: ../tools/kalign_lwp.pl
 
   email:
     type: string
@@ -21,6 +21,14 @@ inputs:
       prefix: --email
     default: 'joonlee@ebi.ac.uk'
     
+  sequence:
+    type: File
+    inputBinding:
+      position: 3
+      prefix: --sequence
+    default:
+      class: File
+      location: ../sequence/multi.seq
   
 
 
@@ -41,12 +49,12 @@ inputs:
       prefix: --title
 #    default: '$defaultValue'
 
-  format:
+  format_param:
     type: string 
     inputBinding:
       position: 13
       prefix: --format
-#    default: '$defaultValue'
+#    default: 'fasta'
 
   gapopen:
     type: float  

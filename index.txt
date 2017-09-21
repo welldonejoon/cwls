@@ -8,3 +8,5 @@ phobius
 pratt
 Radar
 fasta
+psiblast
+kalign
