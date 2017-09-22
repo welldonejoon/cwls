@@ -11,3 +11,4 @@ fasta
 psiblast
 kalign
 mafft
+muscle
