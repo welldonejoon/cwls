@@ -11,7 +11,7 @@ inputs:
        
     default:
       class: File
-      location: ../tools/mview.pl
+      location: ../tools/mview_lwp.pl
 
   email:
     type: string
@@ -28,7 +28,7 @@ inputs:
       prefix: --sequence
     default:
       class: File
-      location: multi.seq
+      location: ../sequence/multi.seq
 
 
 
