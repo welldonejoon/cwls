@@ -14,3 +14,8 @@ Remember, before running cwl, you could redefined with your own values of parame
 cwl-runner ./cwls/tcoffee.cwl ./ymls/tcoffee.yml
 ```
 
+##### Directories
+- cwls : cwl files
+- sequence : example sequence files for testing purpose only. It is predefined in the each cwl. You could use with your sequence. 
+- tools : EMBL-EBI Web Services tools' clients. [webservice-clients](https://github.com/ebi-wp/webservice-clients)
+- ymls : yml files, defined parameters' values.
