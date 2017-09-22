@@ -12,3 +12,4 @@ psiblast
 kalign
 mafft
 muscle
+tcoffee
